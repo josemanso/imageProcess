@@ -4,6 +4,8 @@
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/imgproc.hpp"
 
+
+
 using namespace std;
 using namespace cv;
 
@@ -25,7 +27,7 @@ int main(int argc, char** argv)
         return -1;
     }
     // Separatethe source image in its three R, G and B planes,
-    // funtion split, divided image in thre channels 
+    // funtion split, divided image in thre channels
     vector<Mat> bgr_planes;
     split(src, bgr_planes);
 
