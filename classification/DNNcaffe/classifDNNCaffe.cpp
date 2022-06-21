@@ -41,7 +41,7 @@ int main( int argc, char** argv)
   int image_height = image.cols;
   int image_width = image.rows;
   // create a blob from image
-  //Mat blob = blobFromImage(image, 0.01, Size(244, 244), Scalar(104, 117, 123));
+  //Mat blob = blobFromImage(image, 0.01, Size(244, 244), Scalar(104, 117, 123)); 
   Mat blob = blobFromImage(image, 1.0, Size(300, 300), Scalar(127.5,127.5,127.5), true, false);
 
 
